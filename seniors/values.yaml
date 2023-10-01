@@ -1,0 +1,8 @@
+replicaCount: 2
+image:
+  repository: strangehoon2/seniors
+  pullPolicy: Always
+  tag: "sha-3572726"
+service:
+  type: NodePort
+
