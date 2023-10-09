@@ -9,4 +9,4 @@ service:
   type: NodePort
 maxReplicas: 10
 minReplicas: 2
-targetCPUUtilizationPercentage: 50%
+targetCPUUtilizationPercentage: 50
