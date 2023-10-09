@@ -5,8 +5,8 @@ metadata:
 spec:
   strategy:
     rollingUpdate:
-      maxSurge: 50%
-      maxUnavailable: 50%
+      maxSurge: {{ .Values.maxSurge }}
+      maxUnavailable: {{ .Values.maxUnavailable }}
     type: RollingUpdate
   replicas: {{ .Values.replicaCount }}
   selector:

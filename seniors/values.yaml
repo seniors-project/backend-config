@@ -1,3 +1,5 @@
+maxSurge: 50%
+maxUnavailable: 50%
 replicaCount: 2
 image:
   repository: strangehoon2/seniors
@@ -5,4 +7,6 @@ image:
   tag: "sha-3572726"
 service:
   type: NodePort
-
+maxReplicas: 10
+minReplicas: 2
+targetCPUUtilizationPercentage: 50%
