@@ -9,7 +9,7 @@ metadata:
     alb.ingress.kubernetes.io/class: alb
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS": 443}]'
     alb.ingress.kubernetes.io/actions.ssl-redirect: '{"Type": "redirect", "RedirectConfig": { "Protocol": "HTTPS", "Port": "443", "StatusCode": "HTTP_301"}}'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:elasticloadbalancing:ap-northeast-2:547713713082:loadbalancer/app/seniors-load-balancer/69e7637f97a3f354
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:elasticloadbalancing:ap-northeast-2:547713713082:loadbalancer/app/seniors-load-balancer/c763eab180fe693f
 spec:
   ingressClassName: alb
   rules:
