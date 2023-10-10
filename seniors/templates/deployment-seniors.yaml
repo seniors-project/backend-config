@@ -24,4 +24,6 @@ spec:
         resources:
           requests:
             cpu: 70m
+          limits:
+            cpu: 120m
 
