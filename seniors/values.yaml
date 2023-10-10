@@ -7,6 +7,6 @@ image:
   tag: "sha-9885bac"
 service:
   type: NodePort
-maxReplicas: 10
+maxReplicas: 5
 minReplicas: 2
 targetCPUUtilizationPercentage: 70
