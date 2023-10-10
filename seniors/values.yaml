@@ -4,7 +4,7 @@ replicaCount: 2
 image:
   repository: strangehoon2/seniors
   pullPolicy: Always
-  tag: "sha-3572726"
+  tag: "sha-9885bac"
 service:
   type: NodePort
 maxReplicas: 10
